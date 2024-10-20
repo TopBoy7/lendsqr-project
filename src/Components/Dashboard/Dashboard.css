@@ -262,6 +262,13 @@ h4 {
   border-top: 1px solid rgba(84, 95, 125, 0.15);
 }
 
+.version {
+  font-weight: 500;
+  font-size: 0.8rem;
+  opacity: 1;
+  margin-left: 1rem;
+}
+
 @media screen and (max-width: 768px) {
   .inputContainer {
     display: none;
