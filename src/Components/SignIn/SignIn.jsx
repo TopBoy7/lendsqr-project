@@ -43,12 +43,8 @@ const SignIn = () => {
     <div className="loginContainer">
       {/*left side*/}
       <div className="imageContainer">
-        <img src="/public/Group.png" alt="group" className="groupImage" />
-        <img
-          src="/public/pablo-sign-in 1.png"
-          alt="sign in"
-          className="signInImage"
-        />
+        <img src="/Group.png" alt="group" className="groupImage" />
+        <img src="/pablo-sign-in 1.png" alt="sign in" className="signInImage" />
       </div>
       {/*right side*/}
 
