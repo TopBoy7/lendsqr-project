@@ -1,7 +1,13 @@
+import { useNavigate } from "react-router-dom";
+
 import "./Dashboard.css";
 
 // Dashboard.jsx
 const Dashboard = () => {
+  const navigate = useNavigate();
+  const handleLogout = () => {
+    navigate(-1); // This will navigate back to the previous page
+  };
   return (
     <div className="main">
       <div className="navContainer">
@@ -185,7 +191,7 @@ const Dashboard = () => {
                 <p className="light">Audit Logs</p>
               </div>
 
-              <div className="logout">
+              <div className="logout" onClick={handleLogout}>
                 <div className="sideNav">
                   <svg
                     className="svg"
